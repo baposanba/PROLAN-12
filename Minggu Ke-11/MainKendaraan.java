@@ -25,7 +25,7 @@ public class MainKendaraan{
                               mtr.setThn_Produksi(input.nextLine());
                               System.out.print("Harga =");
                               mtr.setHarga(input.nextInt());
-							  System.out.print("Berat =");
+			      System.out.print("Berat =");
                               mtr.setBerat(input.nextInt());
                               
                               mtr.infokendaraan();
@@ -35,22 +35,22 @@ public class MainKendaraan{
                               break;
                 
                     case 'B': 
-					          mtr.setNama(input.nextLine());
+			      mtr.setNama(input.nextLine());
                               System.out.print("Nama = ");
-                              mtr.setNama(input.nextLine());
+                              mbl.setNama(input.nextLine());
                               System.out.print("Merk = ");
-                              mtr.setMerk(input.nextLine());
+                              mbl.setMerk(input.nextLine());
                               System.out.print("Thn Produksi = ");
-                              mtr.setThn_Produksi(input.nextLine());
+                              mbl.setThn_Produksi(input.nextLine());
                               System.out.print("Harga =");
-                              mtr.setHarga(input.nextInt());
-							  System.out.print("Berat =");
-                              mtr.setBerat(input.nextInt());
+                              mbl.setHarga(input.nextInt());
+			      System.out.print("Berat =");
+                              mbl.setBerat(input.nextInt());
                               
-                              mtr.infokendaraan();
-                              mtr.rinciankendaraan();
-                              mtr.rincianpembeli();
-                              mtr.garispenutup();
+                              mbl.infokendaraan();
+                              mbl.rinciankendaraan();
+                              mbl.rincianpembeli();
+                              mbl.garispenutup();
                               break;
                 }
 	}
