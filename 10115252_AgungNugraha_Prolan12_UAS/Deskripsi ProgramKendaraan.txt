@@ -1,0 +1,47 @@
+Dokumentasi Program Kendaraan
+
+NIM   : 10115252
+Nama  : Agung Nugraha
+Kelas : Prolan-12
+
+
+1. Deskripsi Program Kendaraan
+
+program ini digunakan untuk mendata dan menampilkan rincian data pembelian dan pembayaran kendaraan.
+
+Program ini dibuat menggunakan menu pilihan yang terdiri dari :
+
+A. Rincian Pembeli Motor 
+   Memasukan data diri pembeli motor dan menampilkan rincian pembeliannya.
+B. Rincian Pembeli Mobil 
+   Memasukan data diri pembeli mobil dan menampilkan rincian pembeliannya.
+C. Rincian Pembayaran Kendaraan
+   Memasukan data pembelian kendaraan berupa mobil atau motor dan mendapatkan diskon untuk member.
+D. Rincian Cicilan Kendaraan
+   Memasukan data diri penyicil untuk mengetahui berapa banyak sisa  cicilan kendaraannya.
+
+
+2. Cara Menggunakan Program  
+
+Berikut cara penggunaan program kendaraan :
+
+1. Pada saat pertama kali program di jalankan maka akan terdapat menu pilihan tentang rincian-rincian kendaraan.
+2. Kemudian pengguna dapat memasukan salah satu pilihan yang tersedia yaitu huruf A,B,C,D
+3. Jika pengguna sudah memilih salah satu huruf nya , maka pengguna bisa mengisi data dirinya dan mengetahui rincian tentang kendaraannya.
+4. Di dalam menu A terdapat input dan output berupa Nama,Merk Motor,Tahun Produksi,Harga Motor,Berat Motor.
+5. Di dalam menu B terdapat input dan output berupa Nama,Merk Mobil,Tahun Produksi,Harga Mobil,Berat Mobil.
+6. Di dalam menu C terdapat input dan output disana terdapat diskon bila kita telah menjadi membernya.
+7. Di dalam menu D terdapat input dan output disana kita bisa memasukkan berapa cicilan kita dan berapa sisa cicilan kita.
+
+
+3. Keterkaitan dengan OOP
+
+- Inherintance terdapat pada kelas macam_kendaraan sebagai Super kelasnya yang di extends pada kelas Mobil dan Motor.
+- Kelas Abstract terdapat pada kelas macam_kendaraan .
+- Abstract Method terdapat pada method note di kelas macam_kendaraan.
+- Interface terdapat pada interfaceKendaraan yang di implementasikan pada kelas GenericCicilan,GenericPembayaran,dan macam_kendaraan.
+- Generic class terdapat pada kelas GenericCicilan dan GenericPembayaran.
+- Generic Method terdapat pada kelas GenericCicilan dan GenericPembayaran.
+- Overriding terdapat pada kelas GenericCicilan,GenericPembayaran,Mobil dan Motor. yaitu di atas methodnya memiliki ciri
+  @Override
+- encapsulation , getter dan setter terdapatt pada kelas GenericCicilan,GenericPembayaran dan macam_kendaraan. 
